@@ -23,6 +23,12 @@ describe("Filter: percentage", function() {
 
         it('should return an empty string for non-number inputs', function () {
 
+            expect(this.percentage('a')).toBe('');
+        });
+
+        it('should return an empty string for non-number comparators', function () {
+
+            expect(this.percentage(100, 'a')).toBe('');
         });
     });
 });
