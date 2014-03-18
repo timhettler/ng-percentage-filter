@@ -22,5 +22,6 @@
   },
   "devDependencies": {
     "angular-mocks": ""
-  }
+  },
+  "homepage": "https://github.com/timhettler/ng-percentage-filter"
 }
