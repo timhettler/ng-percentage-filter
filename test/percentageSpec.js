@@ -15,9 +15,13 @@ describe("Filter: percentage", function() {
 
         });
 
-        it('get percentage of comparator value', function() {
+        it('should get percentage of comparator value', function() {
 
             expect(this.percentage(100, 200)).toBe(50);
+
+        });
+
+        it('should return an empty string for non-number inputs', function () {
 
         });
     });
