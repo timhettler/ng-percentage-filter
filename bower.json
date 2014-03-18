@@ -1,0 +1,26 @@
+{
+  "name": "ng-percentage-filter",
+  "version": "0.0.0",
+  "authors": [
+    "Tim Hettler <me+github@timhettler.com>"
+  ],
+  "description": "An AngularJS filter that converts a decimal to a percentage",
+  "keywords": [
+    "AngularJS"
+  ],
+  "main": "./src/percentage.filter.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": ""
+  },
+  "devDependencies": {
+    "angular-mocks": ""
+  }
+}

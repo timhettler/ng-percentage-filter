@@ -1,0 +1,21 @@
+{
+  "name": "ng-percentage-filter",
+  "version": "0.0.0",
+  "description": "An AngularJS filter that converts a decimal to a percentage",
+  "main": "GruntFile.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "karma": "~0.12.1",
+    "grunt-karma": "~0.8.2",
+    "karma-jasmine": "~0.1.5",
+    "karma-phantomjs-launcher": "~0.1.2"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "Tim Hettler <me+github@timhettler.com>",
+  "license": "MIT"
+}
