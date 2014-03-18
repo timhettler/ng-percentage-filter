@@ -40,6 +40,7 @@ This assuming a 0-1 scale and will output: **Final Grade:** 80%
 Will output:
 
 **Total tests:** 145
+
 **Passed:** 82.75862068965517%
 
 If a ridiculous amount of decimal places isn't your thing, you can use the built-in number filter:
@@ -57,6 +58,7 @@ $filter('percentage')(number, total)
 ### Arguments
 
 **number** `number` - Number to convert.
+
 **total** *(optional)* `number` - The total value that `number` will be compared against. The default value is 1.
 
 ### Returns
